@@ -16,15 +16,15 @@ public class Main {
          chair1.getDescription();
      FornitureFactory cookerFornitureFactory1 = new CookerFornitureFactory();
      Forniture cooker1 = cookerFornitureFactory1.createForniture();
-        chair1.setPrice(1500);
-        chair1.setName("Плита №1");
-        chair1.setSpeacialParameter(1000);
-        chair1.getDescription();
+        cooker1.setPrice(1500);
+        cooker1.setName("Плита №1");
+        cooker1.setSpeacialParameter(1000);
+        cooker1.getDescription();
      Forniture cooker2 = cookerFornitureFactory1.createForniture();
-        chair1.setPrice(1000);
-        chair1.setName("Плита №2");
-        chair1.setSpeacialParameter(800);
-        chair1.getDescription();
+        cooker2.setPrice(1000);
+        cooker2.setName("Плита №2");
+        cooker2.setSpeacialParameter(800);
+        cooker2.getDescription();
 
     }
 }

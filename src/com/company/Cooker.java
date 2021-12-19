@@ -29,8 +29,8 @@ public class Cooker implements Forniture{
         return Power;
     }
     @Override
-    public void setSpeacialParameter(double height) {
-        this.Power = height;
+    public void setSpeacialParameter(double power) {
+        this.Power = power;
     }
     @Override
     public void getDescription() {
